@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            height:100px;
+            width: 100px;
+            background-color: brown;
+            position: absolute;
+            animation-name: cha;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            border-radius: 100%;
+           
+        }
+        @keyframes cha{
+            0%{
+                background-color: green;left:0px;top:0px;border-radius: 100%;
+            }
+           
+            25%{
+                background-color:orange;left: 250px;top:0px;border-radius: 100%;
+            }
+            50%{
+                background-color: blue;left: 250px;top:250px;border-radius: 100%;
+            }
+            75%{
+                background-color: green;left:0px;top:0px;border-radius: 100%;
+            }
+           
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+</body>
+</html>
